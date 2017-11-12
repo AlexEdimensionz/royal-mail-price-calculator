@@ -8,6 +8,7 @@ class Package
     private $length = 0.00;
     private $depth = 0.00;
     private $weight = 0;
+    private $tube = false;
 
     /**
      * @return integer Weight of package in grams
@@ -17,6 +18,18 @@ class Package
         return $this->weight;
     }
 
+	/**
+	 * @param boolean $isTube Is the package a tube
+	 */
+	public function setTube($isTube = true)
+	{
+		$this->tube = $isTube;
+	}
+
+	public function isTube()
+	{
+		return $this->tube;
+	}
 
     /**
      * @param integer $weight Weight of package in grams
@@ -33,9 +46,9 @@ class Package
      */
     public function setDimensions($length, $width, $depth)
     {
-        $this->length = $length;
-        $this->width = $width;
-        $this->depth = $depth;
+        $params = array( $length, $width, $depth);
+        sort($params);
+        list($this->depth, $this->width, $this->length) = $params;
     }
 
     /**

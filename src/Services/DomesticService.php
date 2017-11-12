@@ -11,6 +11,7 @@ abstract class DomesticService extends Service
     const LARGE_LETTER = 'large_letter';
     const SMALL_PARCEL = 'small_parcel';
     const MEDIUM_PARCEL = 'medium_parcel';
+	const LARGE_PARCEL = 'large_parcel';
 
     /**
      * @param Package $package
@@ -34,7 +35,10 @@ abstract class DomesticService extends Service
             return self::SMALL_PARCEL;
 
         } elseif ($length <= 61 && $width <= 46 && $depth <= 46 && $weight <= 20000) {
-            return self::MEDIUM_PARCEL;
+	        return self::MEDIUM_PARCEL;
+
+        } elseif ($length <= 2500 && $width + $depth <= 5000 && $weight <= 30000) {
+            return self::LARGE_PARCEL;
         } else {
             throw new UnknownPackageTypeException();
         }
