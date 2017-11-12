@@ -2,7 +2,6 @@
 
 namespace RoyalMailPriceCalculator\Services;
 
-use Doctrine\Common\Inflector\Inflector;
 use RoyalMailPriceCalculator\Calculator;
 use RoyalMailPriceCalculator\Package;
 use Symfony\Component\Yaml\Yaml;
