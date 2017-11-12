@@ -7,7 +7,7 @@ It allows you to calculate the cost of sending a package with Royal Mail, update
 
 Usage
 -----
-Install the latest version with `composer require AlexEdimensionz/royal-mail-price-calculator`
+Install the latest version with `composer require alexedimensionz/royal-mail-price-calculator`
 
 Main Changes from Justin Hook's Repo
 ------------------------------------
