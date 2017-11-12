@@ -151,7 +151,7 @@ CA region is: <?php echo Calculator::get_region_code('CA'); ?><br/>
 US region is: <?php echo Calculator::get_region_code('US'); ?><br/>
 GB region is: <?php echo Calculator::get_region_code('GB'); ?><br/>
 AU region is: <?php echo Calculator::get_region_code('AU'); ?><br/>
-DE region is: <?php echo Calculator::get_region_code('AU'); ?>
+DE region is: <?php echo Calculator::get_region_code('DE'); ?>
 ```
 
 Will output:
