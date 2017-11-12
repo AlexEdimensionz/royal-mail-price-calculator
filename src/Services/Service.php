@@ -37,7 +37,7 @@ abstract class Service implements \JsonSerializable
 	private function getPriceDataFileName()
 	{
 		$name = join('', array_slice(explode('\\', get_class($this)), -1));
-		return Inflector::tableize($name).$this->modifier;
+		return strtolower(preg_replace('~(?<=\\w)([A-Z])~', '_$1', $name)).$this->modifier;
 	}
 
 	/**
