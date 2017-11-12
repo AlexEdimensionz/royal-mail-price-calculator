@@ -127,3 +127,39 @@ International Economy
   →  £13.30
 ```
 
+
+Useful Functions
+----------------
+
+Royal Mail has 4 delivery zones:
+- UK
+- Europe
+- International (Zone 1)
+- International (Zone 2)
+
+You can find the zone code for your country by using the 2-Letter ISO code.
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use \RoyalMailPriceCalculator\Calculator;
+
+?>
+CA region is: <?php echo Calculator::get_region_code('CA'); ?><br/>
+US region is: <?php echo Calculator::get_region_code('US'); ?><br/>
+GB region is: <?php echo Calculator::get_region_code('GB'); ?><br/>
+AU region is: <?php echo Calculator::get_region_code('AU'); ?><br/>
+DE region is: <?php echo Calculator::get_region_code('AU'); ?>
+```
+
+Will output:
+```
+CA region is: intl_1
+US region is: intl_1
+GB region is: uk
+AU region is: intl_2 
+DE region is: eu
+
+```
