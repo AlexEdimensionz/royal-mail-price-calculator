@@ -2,6 +2,7 @@ Royal Mail Price Calculator
 ===========================
 
 This library is forked to revive it.
+Built by [WyldCode](https://wyldcode.com) a subsidiary of [e-dimensionz, Inc](https://e-dimensionz.com)  
 
 It allows you to calculate the cost of sending a package with Royal Mail, updated prices and extends support to all package prices.
 
