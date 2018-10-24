@@ -96,6 +96,7 @@ class Calculator
 
 			$calculatedPrices[] = array(
 				'service' => $service,
+				'days' => $priceData[0]['days'],
 				'prices' => $prices
 			);
 		}
