@@ -13,7 +13,7 @@
     },
     "license": "MIT",
     "require": {
-        "symfony/yaml": "2.*"
+        "symfony/yaml": "^3.4|^4.1"
     },
     "autoload": {
         "psr-4": {
