@@ -1,0 +1,11 @@
+-
+  compensation: 100.00
+  prices:
+    large_letter:
+      750: 4.86
+    small_parcel:
+      1000: 5.82
+      2000: 8.16
+    medium_parcel:
+      1000: 8.82
+      2000: 12.30
