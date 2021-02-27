@@ -192,6 +192,8 @@ class Calculator
 			case 'tk':
 			case 'ws':
 				return 'intl_2';
+                        case 'us':
+                                return 'intl_3';
 			default:
 				return 'intl_1';
 		}
