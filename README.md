@@ -133,11 +133,12 @@ International Economy
 Useful Functions
 ----------------
 
-Royal Mail has 4 delivery zones:
+Royal Mail has 5 delivery zones:
 - UK
 - Europe
 - International (Zone 1)
 - International (Zone 2)
+- US (Zone 3)
 
 You can find the zone code for your country by using the 2-Letter ISO code.
 
