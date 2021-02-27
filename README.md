@@ -159,7 +159,7 @@ DE region is: <?php echo Calculator::get_region_code('DE'); ?>
 Will output:
 ```
 CA region is: intl_1
-US region is: intl_1
+US region is: intl_3
 GB region is: uk
 AU region is: intl_2 
 DE region is: eu
