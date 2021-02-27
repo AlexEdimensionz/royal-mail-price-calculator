@@ -6,27 +6,33 @@ Built by [WyldCode](https://wyldcode.com) a subsidiary of [e-dimensionz, Inc](ht
 
 It allows you to calculate the cost of sending a package with Royal Mail, updated prices and extends support to all package prices.
 
-Usage
+**Usage**
 -----
 Install the latest version with `composer require alexedimensionz/royal-mail-price-calculator`
 
-Main Changes from Justin Hook's Repo
+**Main Changes from Justin Hook's Repo**
 ------------------------------------
 - Removed Doctrine requirement
-- Added almost all shipping types
+- Added all shipping types
 - Added International shipping options and prices
-- Updated price list to March, 2017 (latest list as of November, 2017)
+- Continuously Updating price lists
 
-Supported Services
+
+**Supported Services**
 ------------------
+`NOTE: Guaranteed by 9am Service was removed from the latest price list as of March 25, 2019`
+
+
 Service  | Class
 ------------- | -------------
 1st Class Service | `FirstClassService()`
 2nd Class Service | `SecondClassService()`
 Signed For 1st Class | `SignedForFirstClassService()`
 Signed For 2nd Class | `SignedForSecondClassService()`
-Guaranteed by 9am | `GuaranteedByNineAmService()`
-Guaranteed by 9am with Saturday Guarantee | `GuaranteedByNineAmWithSaturdayService()`
+Tracked 24 | `Tracked24Service()`
+Tracked 48 | `Tracked48Service()`
+Tracked 24 with Signature | `TrackedAndSigned24Service()`
+Tracked 48 with Signature | `TrackedAndSigned48Service()`
 Guaranteed by 1pm | `GuaranteedByOnePmService()`
 Guaranteed by 1pm with Saturday Guarantee | `GuaranteedByOnePmWithSaturdayService()`
 International Economy | `InternationalEconomy()`

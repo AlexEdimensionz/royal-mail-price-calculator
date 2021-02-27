@@ -2,18 +2,18 @@
     "name": "alexedimensionz/royal-mail-price-calculator",
     "description": "A library to calculate the cost of sending a package with Royal Mail.",
     "keywords": ["royal mail", "postage", "calculator"],
-    "homepage": "https://github.com/alexedimensionz/royal-mail-price-calculator",
+    "homepage": "https://github.com/e-dimensionz/royal-mail-price-calculator",
     "authors": [
         {
             "name": "Alex @ Wyldcode | e-dimensionz, Inc"
         }
     ],
     "support": {
-        "issues": "https://github.com/alexedimensionz/royal-mail-price-calculator/issues"
+        "issues": "https://github.com/e-dimensionz/royal-mail-price-calculator/issues"
     },
     "license": "MIT",
     "require": {
-        "symfony/yaml": "2.*"
+        "symfony/yaml": "^3.4|^4.1"
     },
     "autoload": {
         "psr-4": {
