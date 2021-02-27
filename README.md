@@ -19,9 +19,6 @@ Install the latest version with `composer require alexedimensionz/royal-mail-pri
 
 
 **Supported Services**
-------------------
-`NOTE: Guaranteed by 9am Service was removed from the latest price list as of March 25, 2019`
-
 
 Service  | Class
 ------------- | -------------
@@ -29,10 +26,8 @@ Service  | Class
 2nd Class Service | `SecondClassService()`
 Signed For 1st Class | `SignedForFirstClassService()`
 Signed For 2nd Class | `SignedForSecondClassService()`
-Tracked 24 | `Tracked24Service()`
-Tracked 48 | `Tracked48Service()`
-Tracked 24 with Signature | `TrackedAndSigned24Service()`
-Tracked 48 with Signature | `TrackedAndSigned48Service()`
+Guaranteed by 9am | `GuaranteedByNineAmService()`
+Guaranteed by 9am with Saturday Guarantee | `GuaranteedByNineAmWithSaturdayService()`
 Guaranteed by 1pm | `GuaranteedByOnePmService()`
 Guaranteed by 1pm with Saturday Guarantee | `GuaranteedByOnePmWithSaturdayService()`
 International Economy | `InternationalEconomy()`
